@@ -59,7 +59,7 @@ int main()
     int i,j;
     printf("enter no. of elements :");
     scanf("%d", &n);
-    // printf("enter matrix :");
+    printf("enter matrix :");
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
@@ -69,6 +69,6 @@ int main()
     }
     printf("enter no. of colours :");
     scanf("%d", &m);
-
+//func call
     ncolour(0);
 }
