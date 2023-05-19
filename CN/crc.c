@@ -29,7 +29,7 @@ void main()
     int ch;
     do
     {
-    printf("1)Transmission\n2)Reception\n3)Exit");
+    printf("1)Transmission\n2)Reception\n3)Exit\n");
     scanf("%d",&ch);
     switch(ch)
     {
@@ -62,9 +62,9 @@ void main()
             c++;
         }
         if(c==strlen(rem))
-        printf("No error");
+        printf("No error\n");
         else
-        printf("Errors");
+        printf("Errors\n");
         break;
     case 3:printf("Thenks");
     }

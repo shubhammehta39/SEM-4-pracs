@@ -7,7 +7,7 @@ udp_host = socket.gethostname()		        # Host IP
 udp_port = 12345			        # specified port to connect
 
 #print type(sock) ============> 'type' can be used to see type 
-				# of any variable ('sock' here)
+				# of any variable ('sock' here)yes
 
 sock.bind((udp_host,udp_port))
 
